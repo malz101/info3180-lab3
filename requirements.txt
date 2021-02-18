@@ -1,5 +1,8 @@
 click==7.1.2
+Email-Validator
 Flask==1.1.2
+Flask-Mail 
+Flask-WTF 
 itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1

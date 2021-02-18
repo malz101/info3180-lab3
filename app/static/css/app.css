@@ -1,3 +1,66 @@
 body {
     padding-top: 5rem;
 }
+
+hr{
+    border-style: none;
+    border-top: 3px inset #ffffff;
+}
+
+.contact-form{
+    width: 40%;
+}
+
+.label{
+    font-weight: bold;
+}
+
+.required{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.form-group{
+    margin-top: 2.5rem;
+}
+
+.form-btn{
+    width: 22%;
+    margin-top: 1.5rem;
+}
+
+.form-btn:hover{
+    background-color:#4530cf;
+    box-shadow: 2px 4px  4px 1px #E2E8F0, -2px 0px 4px 1px #E2E8F0;
+}
+
+.flashes{
+	list-style-type: none;
+	margin:auto;
+	padding: 0;
+}
+
+.notification {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.notification-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #3c763d;
+}
+
+.notification-warning {
+background-color: #fcf8e3;
+border-color: #faebcc;
+color: #8a6d3b;
+}
+
+.notification-danger {
+background-color: #f2dede;
+border-color: #ebccd1;
+color: #a94442;
+}

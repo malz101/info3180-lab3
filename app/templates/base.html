@@ -20,6 +20,10 @@
     <header>
         {% include "header.html" %}
     </header>
+    <div class="container">
+      {% include 'flash_messages.html' %}
+    </div>
+    
     <main>
         <div class="container">
             {% block main %}{% endblock %}
